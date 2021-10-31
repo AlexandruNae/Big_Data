@@ -62,7 +62,5 @@ def get_large_audio_transcription(path):
 #     text = r.recognize_google(audio_data, language="ro-RO")
 #     print(text)
 
-print('test for github')
-
-path = 'C:\\Users\\Alex\\Desktop\\speech_to_text\\audio\\audio_5.wav'
+path = 'C:\\Users\\Alex\\Desktop\\speech_to_text\\audio\\audio_3.wav'
 print("\nFull text:", get_large_audio_transcription(path))
