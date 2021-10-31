@@ -1,5 +1,9 @@
+
+#  run this in terminal: pip3 install SpeechRecognition pydub
+#  usefull for whatsapp audio converting: https://audio.online-convert.com/convert/ogg-to-wav
+#  in future we'll automatically convert audio files to .wav (I hope lol)
+
 # importing libraries
-# pip3 install SpeechRecognition pydub
 import speech_recognition as sr
 import os
 from pydub import AudioSegment
